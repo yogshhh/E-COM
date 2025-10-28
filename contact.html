@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Brahmastra</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('http://static.photos/black/1200x630/42');
+            background-size: cover;
+            background-position: center;
+        }
+        .contact-icon {
+            background: linear-gradient(145deg, #1a1a1a, #111);
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-montserrat">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black bg-opacity-80 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bebas tracking-wider">BRAHMASTRA</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="shop.html" class="hover:text-yellow-400 transition">SHOP</a>
+                <a href="collections.html" class="hover:text-yellow-400 transition">COLLECTIONS</a>
+                <a href="about.html" class="hover:text-yellow-400 transition">ABOUT</a>
+                <a href="contact.html" class="text-yellow-400 transition">CONTACT</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#"><i data-feather="shopping-bag" class="hover:text-yellow-400"></i></a>
+                <a href="#"><i data-feather="user" class="hover:text-yellow-400"></i></a>
+                <button class="md:hidden">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="pt-32 pb-20 hero-bg bg-cover bg-center">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-7xl font-bebas mb-6" data-aos="fade-down">CONTACT US</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                We're here to answer all your questions
+            </p>
+        </div>
+    </section>
+    <!-- Contact Methods -->
+    <section class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col items-center max-w-md mx-auto">
+                <!-- Email -->
+                <div class="text-center p-8 contact-icon rounded-xl mb-8 w-full" data-aos="fade-up">
+                    <div class="w-24 h-24 mx-auto mb-6 flex items-center justify-center bg-yellow-400 text-black rounded-full">
+                        <i data-feather="mail" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-3xl font-bebas mb-4">EMAIL US</h3>
+                    <p class="text-lg text-gray-400 mb-4">For general inquiries and support</p>
+                    <a href="mailto:contact@brahmastra.com" class="text-xl text-yellow-400 hover:text-yellow-300">contact@brahmastra.com</a>
+                </div>
+
+                <!-- Phone -->
+                <div class="text-center p-6 contact-icon rounded-xl w-full" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-20 h-20 mx-auto mb-4 flex items-center justify-center bg-yellow-400 text-black rounded-full">
+                        <i data-feather="phone" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-2xl font-bebas mb-2">CALL US</h3>
+                    <p class="text-gray-400 mb-2">Mon-Fri: 10AM - 6PM</p>
+                    <a href="tel:+911234567890" class="text-lg text-yellow-400 hover:text-yellow-300">+91 12345 67890</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- FAQ Section -->
+<section class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-bebas text-center mb-12" data-aos="fade-down">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="border-b border-gray-800 pb-4" data-aos="fade-up">
+                    <button class="flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">What are your shipping options?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-2 text-gray-400 hidden">
+                        <p>We offer standard (5-7 business days) and express (2-3 business days) shipping across India. International shipping is available with delivery times varying by destination.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border-b border-gray-800 pb-4" data-aos="fade-up" data-aos-delay="100">
+                    <button class="flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">What is your return policy?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-2 text-gray-400 hidden">
+                        <p>We accept returns within 15 days of delivery. Items must be unworn, unwashed, with tags attached. Final sale items are not eligible for return.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border-b border-gray-800 pb-4" data-aos="fade-up" data-aos-delay="200">
+                    <button class="flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">How do I track my order?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-2 text-gray-400 hidden">
+                        <p>Once your order ships, you'll receive a tracking number via email. You can use this to track your package through our delivery partners.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border-b border-gray-800 pb-4" data-aos="fade-up" data-aos-delay="300">
+                    <button class="flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">Do you offer custom sizing?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-2 text-gray-400 hidden">
+                        <p>Currently we don't offer custom sizing, but our products are designed with a comfortable, slightly oversized fit. Refer to our size chart for measurements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-2xl font-bebas mb-4">BRAHMASTRA</h4>
+                    <p class="text-gray-400">The ultimate weapon for those who live without limits.</p>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">SHOP</h5>
+                    <ul class="space-y-2">
+                        <li><a href="shop.html" class="text-gray-400 hover:text-white transition">New Arrivals</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Best Sellers</a></li>
+                        <li><a href="collections.html" class="text-gray-400 hover:text-white transition">Collections</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Accessories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">ABOUT</h5>
+                    <ul class="space-y-2">
+                         <li><a href="aboutus.html" class="text-gray-400 hover:text-white transition">About us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">CONNECT</h5>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm">© 2023 BRAHMASTRA. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Terms of Service</a>
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Shipping Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        feather.replace();
+
+        // FAQ Toggle functionality
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.classList.add('rotate-180');
+                } else {
+                    content.classList.add('hidden');
+                    icon.classList.remove('rotate-180');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

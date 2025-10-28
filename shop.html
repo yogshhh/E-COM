@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Brahmastra</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        .product-card {
+            background: linear-gradient(to bottom, #1a1a1a, #111);
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-montserrat">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black bg-opacity-80 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bebas tracking-wider">BRAHMASTRA</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="shop.html" class="text-yellow-400 transition">SHOP</a>
+                <a href="#" class="hover:text-yellow-400 transition">COLLECTIONS</a>
+                <a href="#" class="hover:text-yellow-400 transition">ABOUT</a>
+                <a href="#" class="hover:text-yellow-400 transition">CONTACT</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#"><i data-feather="shopping-bag" class="hover:text-yellow-400"></i></a>
+                <a href="#"><i data-feather="user" class="hover:text-yellow-400"></i></a>
+                <button class="md:hidden">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Shop Hero -->
+    <section class="pt-32 pb-20 hero-bg bg-cover bg-center">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-7xl font-bebas mb-6" data-aos="fade-down">SHOP OUR WEAPONS</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                Arm yourself with legendary style
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-20 bg-black">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+<!-- Product 1 - Astra Drip -->
+                <div class="product-card rounded-xl overflow-hidden hover-scale" data-aos="fade-up">
+                    <div class="h-80 bg-cover bg-center" style="background-image: url('http://static.photos/fashion/640x360/1');"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bebas mb-2">ASTRA DRIP TEE</h3>
+                        <p class="text-yellow-400 mb-2">₹2,999</p>
+                        <p class="text-gray-400 mb-4">Inspired by celestial weapons from Hindu mythology</p>
+                        <button class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-4 rounded-full transition">
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 2 - Kavach Aur Kundal -->
+                <div class="product-card rounded-xl overflow-hidden hover-scale" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-80 bg-cover bg-center" style="background-image: url('http://static.photos/fashion/640x360/2');"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bebas mb-2">KAVACH HOODIE</h3>
+                        <p class="text-yellow-400 mb-2">₹4,999</p>
+                        <p class="text-gray-400 mb-4">Battle-ready protection in modern streetwear</p>
+                        <button class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-4 rounded-full transition">
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <!-- Product 3 - Abhushan -->
+                <div class="product-card rounded-xl overflow-hidden hover-scale" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-80 bg-cover bg-center" style="background-image: url('http://static.photos/fashion/640x360/3');"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bebas mb-2">ABHUSHAN RING</h3>
+                        <p class="text-yellow-400 mb-2">₹1,999</p>
+                        <p class="text-gray-400 mb-4">Modern accessories with mythological roots</p>
+                        <button class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-4 rounded-full transition">
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 4 - Sudarshan Chakra -->
+                <div class="product-card rounded-xl overflow-hidden hover-scale" data-aos="fade-up" data-aos-delay="500">
+                    <div class="h-80 bg-cover bg-center" style="background-image: url('http://static.photos/fashion/640x360/4');"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bebas mb-2">SUDARSHAN CHAKRA TEES</h3>
+                        <p class="text-yellow-400 mb-2">₹2,799</p>
+                        <p class="text-gray-400 mb-4">Celestial discus inspired graphic tees</p>
+                        <button class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-4 rounded-full transition">
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 5 - Trishul -->
+                <div class="product-card rounded-xl overflow-hidden hover-scale" data-aos="fade-up" data-aos-delay="600">
+                    <div class="h-80 bg-cover bg-center" style="background-image: url('http://static.photos/fashion/640x360/5');"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bebas mb-2">TRISHUL CARGO PANTS</h3>
+                        <p class="text-yellow-400 mb-2">₹3,999</p>
+                        <p class="text-gray-400 mb-4">Battle-ready utility pants with multiple pockets</p>
+                        <button class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-4 rounded-full transition">
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 6 - Pashupatastra -->
+                <div class="product-card rounded-xl overflow-hidden hover-scale" data-aos="fade-up" data-aos-delay="700">
+                    <div class="h-80 bg-cover bg-center" style="background-image: url('http://static.photos/fashion/640x360/6');"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bebas mb-2">PASHUPATASTRA JACKET</h3>
+                        <p class="text-yellow-400 mb-2">₹5,499</p>
+                        <p class="text-gray-400 mb-4">Ultimate weapon against cold weather</p>
+                        <button class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-4 rounded-full transition">
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-2xl font-bebas mb-4">BRAHMASTRA</h4>
+                    <p class="text-gray-400">The ultimate weapon for those who live without limits.</p>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">SHOP</h5>
+                    <ul class="space-y-2">
+                        <li><a href="shop.html" class="text-gray-400 hover:text-white transition">New Arrivals</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Best Sellers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Collections</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Accessories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">ABOUT</h5>
+                    <ul class="space-y-2">
+                         <li><a href="aboutus.html" class="text-gray-400 hover:text-white transition">About us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">CONNECT</h5>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm">© 2023 BRAHMASTRA. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Terms of Service</a>
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Shipping Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
